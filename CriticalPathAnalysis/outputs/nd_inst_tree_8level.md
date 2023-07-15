@@ -1,0 +1,26 @@
+- system - 382
+  - u_e203_soc_top - 382
+    - u_e203_subsys_top - 382
+      - u_e203_subsys_main - 382
+        - u_e203_cpu_top - 382
+          - u_e203_cpu - 382
+            - u_e203_itcm_ctrl - 95
+              - u_sram_icb_ctrl - 94
+                - u_byp_icb_cmd_buf - 91
+                - u_sirv_1cyc_sram_ctrl - 3
+              - ifu_holdup_dffl - 1
+            - u_e203_core - 231
+              - u_e203_biu - 79
+                - u_biu_icb_arbt - 2
+                - u_sirv_gnrl_icb_buffer - 77
+              - u_e203_ifu - 143
+                - u_e203_ifu_ift2icb - 62
+                - u_e203_ifu_ifetch - 81
+              - u_e203_exu - 9
+                - u_e203_exu_alu - 9
+            - u_e203_clk_ctrl - 1
+              - itcm_active_dffr - 1
+            - u_e203_dtcm_ctrl - 55
+              - u_sram_icb_ctrl - 55
+                - u_byp_icb_cmd_buf - 54
+                - u_sirv_1cyc_sram_ctrl - 1
